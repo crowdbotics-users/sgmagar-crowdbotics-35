@@ -7,3 +7,4 @@ whitenoise==3.3.0
 cmsplugin-twitter
 django-paypal
 dj-stripe
+dj-paypal
