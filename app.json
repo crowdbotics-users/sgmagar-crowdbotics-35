@@ -1,0 +1,16 @@
+
+{
+  "name": "sgmagar-crowdbotics-35",
+  "description": "This is repository for web app developed with django  and with features paypal web application twitter stripe",
+  "repository": "https://github.com/crowdbotics-users/sgmagar-crowdbotics-35",
+  "keywords": ['web', 'paypal,web', 'application,twitter,stripe'],
+  "env": {
+    "DEBUG_COLLECTSTATIC": "1" 
+  },
+  "addons": [
+    "heroku-postgresql:hobby-dev"
+  ],
+  "scripts": {
+    "postdeploy": "python manage.py migrate --noinput"
+  }
+}
